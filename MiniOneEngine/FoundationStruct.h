@@ -73,12 +73,12 @@ namespace mini
 			m[1] = value[1];
 		}
 
-		T_Point2& operator + (const T_Point2 &vec) const
+		T_Point2 operator + (const T_Point2 &vec) const
 		{
 			return T_Point2(x + vec.x, y + vec.y);
 		}
 
-		T_Point2& operator - (const T_Point2 &vec) const
+		T_Point2 operator - (const T_Point2 &vec) const
 		{
 			return T_Point2(x - vec.x, y - vec.y);
 		}
@@ -146,12 +146,12 @@ namespace mini
 			m[2] = value[2];
 		}
 
-		T_Point3& operator + (const T_Point3 &vec) const
+		T_Point3 operator + (const T_Point3 &vec) const
 		{
 			return T_Point3(x + vec.x, y + vec.y, z + vec.z);
 		}
 
-		T_Point3& operator - (const T_Point3 &vec) const
+		T_Point3 operator - (const T_Point3 &vec) const
 		{
 			return T_Point3(x - vec.x, y - vec.y, z - vec.z);
 		}
@@ -220,12 +220,12 @@ namespace mini
 			m[3] = value[3];
 		}
 
-		T_Point4& operator + (const T_Point4 &vec) const
+		T_Point4 operator + (const T_Point4 &vec) const
 		{
 			return T_Point4(x + vec.x, y + vec.y, z + vec.z, w + vec.w);
 		}
 
-		T_Point4& operator - (const T_Point4 &vec) const
+		T_Point4 operator - (const T_Point4 &vec) const
 		{
 			return T_Point4(x - vec.x, y - vec.y, z - vec.z, w - vec.w);
 		}
