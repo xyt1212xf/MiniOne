@@ -1,0 +1,9 @@
+
+miniWnd = 
+{
+	position = "0, 0",
+	size = "400, 400",
+	wndType = 1,
+	texture = "resource/Texture/DefaultWnd.png",
+}
+

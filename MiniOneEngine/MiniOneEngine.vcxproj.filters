@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graphic">
+      <UniqueIdentifier>{6e82e3f4-e80e-4047-95fe-34e644f05b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{54f104d8-673b-45b8-bd38-efdfc45b4385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{39941a27-06a1-4edf-a18d-1825d63597cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{f70b2b54-30a2-4da6-b654-6066dec19a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{c230288f-fdf7-44a4-9920-84a789f8034c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{a44b83eb-2763-485e-9baa-a054cc939f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{849b43e9-e56e-45ea-b088-0a26b9621dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\test">
+      <UniqueIdentifier>{d20bc9d5-8482-4e9a-bbdb-9f26b5e34b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic\Logic">
+      <UniqueIdentifier>{20e8b490-1d78-4615-b923-bd07b1aaaac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic\Renderer">
+      <UniqueIdentifier>{3856c8b5-8a24-4cc7-b3de-b4a8ca1b6131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame">
+      <UniqueIdentifier>{c4d545d2-59f9-4262-840a-148ca20e9cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{7700a924-8c87-4278-bd22-3839793b91d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Material">
+      <UniqueIdentifier>{8f421b3c-ab40-40bd-b2f3-d2e9931eb0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Model">
+      <UniqueIdentifier>{a6458a5d-070a-4683-b617-6248bfa2b9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame\Demo">
+      <UniqueIdentifier>{9f1cce8a-0c04-4bbe-9b3c-e4dc0e984fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic\RenderActor">
+      <UniqueIdentifier>{b171fefc-960c-43f5-a001-2d0d4d22db81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderEffect">
+      <UniqueIdentifier>{569808e9-5595-4456-aad3-565fee91c68a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TSingle.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PlugInEnum.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHead.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniOne.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PlugInFactory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptPlugin.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPlugin.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPlugin.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseParam.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="luaBind.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CClass.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemberData.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ToScriptClass.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Refcount.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Script\test</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptHead.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Graphic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererPlugin.h">
+      <Filter>Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Graphic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManagerInterface.h">
+      <Filter>Graphic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManagerFactory.h">
+      <Filter>Graphic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceDx11.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Graphic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="BspSceneManager.h">
+      <Filter>Graphic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LodSceneManager.h">
+      <Filter>Graphic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowRenderer.h">
+      <Filter>Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiRenderer.h">
+      <Filter>Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererFactory.h">
+      <Filter>Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontRenderer.h">
+      <Filter>Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredRenderer.h">
+      <Filter>Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="PostRenderer.h">
+      <Filter>Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceFactory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUBuffer.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleActor.h">
+      <Filter>Frame\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundBox.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitDerive.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureActor.h">
+      <Filter>Frame\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffuseActor.h">
+      <Filter>Frame\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeActor.h">
+      <Filter>Frame\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Wnd.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="LightActor.h">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PostRenderActor.h">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiActor.h">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxActor.h">
+      <Filter>Frame\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderToTextureActor.h">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMain.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControlBase.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="FoundationStruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyle.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiParse.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDome.h">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderNode.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="PostRender.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Radio.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="TableWnd.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformWin32.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PlugInFactory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptPlugin.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPlugin.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkPlugin.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="luaBind.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ToScriptClass.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Refcount.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Script\test</Filter>
+    </ClCompile>
+    <ClCompile Include="CClass.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Graphic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererPlugin.cpp">
+      <Filter>Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Graphic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManagerInterface.cpp">
+      <Filter>Graphic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManagerFactory.cpp">
+      <Filter>Graphic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceDx11.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Graphic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="BspSceneManager.cpp">
+      <Filter>Graphic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="LodSceneManager.cpp">
+      <Filter>Graphic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiRenderer.cpp">
+      <Filter>Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowRenderer.cpp">
+      <Filter>Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererFactory.cpp">
+      <Filter>Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredRenderer.cpp">
+      <Filter>Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontRenderer.cpp">
+      <Filter>Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PostRenderer.cpp">
+      <Filter>Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBase.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceFactory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUBuffer.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleActor.cpp">
+      <Filter>Frame\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundBox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureActor.cpp">
+      <Filter>Frame\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffuseActor.cpp">
+      <Filter>Frame\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeActor.cpp">
+      <Filter>Frame\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Wnd.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="LightActor.cpp">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PostRenderActor.cpp">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiActor.cpp">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxActor.cpp">
+      <Filter>Frame\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderToTextureActor.cpp">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMain.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControlBase.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyle.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiParse.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDome.cpp">
+      <Filter>Graphic\RenderActor</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderNode.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="PostRender.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Radio.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="TableWnd.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Run\config.lua">
+      <Filter>lua</Filter>
+    </None>
+    <None Include="..\Run\script\main.lua">
+      <Filter>lua</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\alphaTexture.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\ambient.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\ambient.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\camera.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\diffuse.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\diffuse.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\guiRender.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\guiRender.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\lightMap.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\normalMap.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\normalMap.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\specular.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\specular.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\terrain.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\terrain.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\texture.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\texture.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\color.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\color.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\skydome.ps">
+      <Filter>ShaderEffect</Filter>
+    </None>
+    <None Include="..\Run\resource\Shader\skydome.vs">
+      <Filter>ShaderEffect</Filter>
+    </None>
+  </ItemGroup>
+</Project>

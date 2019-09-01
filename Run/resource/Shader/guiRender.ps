@@ -1,0 +1,36 @@
+////////////////////////////////////////////////////////////////////////////////
+// Filename: texture.ps
+////////////////////////////////////////////////////////////////////////////////
+
+Texture2D tex;
+SamplerState SampleType;
+//////////////
+// TYPEDEFS //
+//////////////
+struct PixelInputType
+{
+    float4 position : SV_POSITION;
+    float2 tex : TEXCOORD0;
+	float4 color : COLOR;
+};
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Pixel Shader
+////////////////////////////////////////////////////////////////////////////////
+float4 guiPixelShader(PixelInputType input) : SV_TARGET
+{
+    // Get the pixel color from the first texture.
+	float4 color;
+	
+	// Sample the texture pixel at this location.
+	color =  tex.Sample(SampleType, input.tex);
+	if(color.r == 0.0f)
+	{
+		color.a = 0.0f;
+	}
+	color = color * input.color;	
+	// If the color is black on the texture then treat this pixel as transparent.
+
+	return color;
+}

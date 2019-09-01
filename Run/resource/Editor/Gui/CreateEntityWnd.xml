@@ -1,0 +1,5 @@
+<version ID="1.0">
+	<Window name="CreateEntity" x="0" y="0" width="200" height="200" style="WndDefalut"/>
+	<Font name="resource/Font/styleFont" color="1,0,0,1" size="16,16" />
+	<Button name="CreateCube" text="CreateCube" x="0" y="0" width="100" height="20" style="default"/>
+</version>

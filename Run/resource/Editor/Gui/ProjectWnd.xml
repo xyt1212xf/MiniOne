@@ -1,0 +1,5 @@
+<version ID="1.0">
+	<Window name="Project" x="0" y="0" width="980" height="232" style="WndDefalut"/>
+	<Font name="resource/Font/styleFont" color="1,0,0,1" size="16,16" />
+	<Button name="step" text="Step" x="52" y="5" width="50" height="20" style="default"/>
+</version>

@@ -1,0 +1,10 @@
+//bug的解决
+1.菜单不消失的问题是因为BOOL CMainFrame::PreTranslateMessage(MSG* pMsg)这个函数被重载了，所以不消失（解决了， 现在使用win32,并且自己实现菜单了，所以这个bug也不存在了）
+
+
+//待修改的问题
+1.renderer的子类，最好是改成包含不同的shader,而不是不同的camera.
+2.GuiRenderer的类和CTerrain的类，产生VertexBuffer，Shader，Material的方式，最后还是要通过Material的脚本来产生，在cpp里面去各自实现是暂时妥协的办法，这个方法一定要修改！！！！！！！！！！！
+3.现在material的lua支持了pixelShader的 cbuffer参数，但是渲染的状态还没有实习，现在要考虑一下怎么控制渲染状态。可以把渲染状态放到材质里面去。但是这个材质但是不是改成叫渲染单元更加的合适？
+毕竟包含了渲染相关的很多信息了。
+

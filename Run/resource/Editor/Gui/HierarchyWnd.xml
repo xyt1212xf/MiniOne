@@ -1,0 +1,5 @@
+<version ID="1.0">
+	<Window name="Hierarchy" x="0" y="0" width="300" height="478" style="WndDefalut"/>
+	<Font name="resource/Font/styleFont" color="1,0,0,1" size="16,16" />
+	<Button name="Create" text="Create" x="0" y="0" width="50" height="20" style="default"/>
+</version>

@@ -1,0 +1,5 @@
+<version ID="1.0">
+	<Window name="RightWnd" x="980" y="33" width="300" height="735" style="WndDefalut"/>
+	<Font name="resource/Font/styleFont" color="1,0,0,1" size="16,16" id = "0" />
+	<Table name="tableWnd" text="" x="0" y="0" width="980" height="735" style="default"/>
+</version>
